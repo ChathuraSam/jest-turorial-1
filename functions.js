@@ -1,7 +1,4 @@
-const functions = {
-  add: function(num1, num2) {
-    return num1 + num2;
-  }
+function sum(a, b) {
+  return a + b;
 }
-
-module.exports = functions;
+module.exports = sum;
