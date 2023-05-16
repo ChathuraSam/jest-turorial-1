@@ -62,3 +62,21 @@ test('user fetched name should be Leanne Graham', async () => {
     expect(e).toMatch('error');
   }
 });
+
+
+// before and after
+beforeEach(() => {
+  initDatabase();
+});
+
+afterEach(() => {
+  closeDatabase();
+})
+
+const initDatabase = () => {
+  console.log("Database initialized...");
+};
+
+const closeDatabase = () => {
+  console.log('Database closed...')
+};
