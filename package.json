@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ChathuraSam/jest-turorial-1#readme",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
